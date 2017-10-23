@@ -1,10 +1,9 @@
 package com.faltdor.gof.factory;
 
 import com.faltdor.gof.factory.domain.AbstractPizza;
-import com.faltdor.gof.factory.domain.CheesePizza;
-import com.faltdor.gof.factory.domain.PepperoniPizza;
-import com.faltdor.gof.factory.domain.VeggiePizza;
-
+import com.faltdor.gof.factory.domain.impl.CheesePizza;
+import com.faltdor.gof.factory.domain.impl.PepperoniPizza;
+import com.faltdor.gof.factory.domain.impl.VeggiePizza;
 public class PizzaFactory extends BasePizzaFactory {
 
 	@Override
